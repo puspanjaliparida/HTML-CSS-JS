@@ -1,0 +1,27 @@
+25.03.24
+CSS(Cascading style sheets)
+1997-CSS started.
+Now CSS3 exists.
+CSS can be written in three ways.Like
+  (1)Inline styling:
+  //create a div with a small paragraph, make the div background color black and text color white.
+  <body>
+  <div style="background-color: black;color: white;">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, pariatur?</p>
+  </div>
+  </body>
+
+  (2)Internal styling:
+       In the Internal styling in the head we include style element.
+
+  (3)External styling:
+  in first.css just write
+  .div{
+    background-color: yellow;
+    color: red;
+}
+body{
+    background-color: green;
+}
+link this where you want to link
+<link rel="stylesheet" href="first.css"
