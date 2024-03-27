@@ -76,3 +76,8 @@ label{
    margin-top: -4rem;
 }
 
+@media only screen and (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+  }
