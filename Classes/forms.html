@@ -1,0 +1,55 @@
+<!-- 27.03.24 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="shortcut icon" href="./Images/google.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="main.py">
+        <div><label for="y">Enter your Name:</label><input type="text" placeholder="Enter your name" name="username" id="y"/></div><br>
+        <div><label for="a">Enter your Email:</label><input type="email" placeholder="Enter your email" name="email" id="a"/></div><br>
+        <div><label for="b">Enter your password:</label><input type="password" name="pwd" placeholder="Enter your password" id="b"/></div><br>
+        <div><label for="c">Enter age:</label><input type="number" placeholder="Enter your age" name="age" id="c"></div><br>
+        <div><label for="x">Date of Birth:</label><input type="date" name="" id="x"></div><br>
+        <div>
+            <input type="file"><br>
+            <input type="color" name="" id=""><br>
+            <input type="datetime-local" name="" id=""><br>
+            <input type="hidden" name="company" value="wipro"><br>
+            <input type="month" name="" id=""><br>
+            <input type="week" name="" id=""><br>
+            <input type="time" name="" id=""><br>
+            <input type="range" name="" id=""><br>
+            <input type="url" name="" id=""><br>
+            <input type="search" name="" id=""><br>
+        </div><br>
+       <input type="submit" value="submit">
+       <input type="reset" value="reset">
+       <p>Skills</p>
+       <input type="checkbox" name="skills" id="java"><label for="java">Java</label><br>
+       <input type="checkbox" name="skills" id="HTML"><label for="HTML">HTML</label><br>
+       <input type="checkbox" name="skills" id="css"><label for="css">css</label><br>
+
+       <!-- radio buttons are used for single selections -->
+
+       <h3>Who is the President of India now?</h3>
+       <div>
+        <input type="radio" name="press" id="o1" value="Rahul Gandhi"><label for="o1">Rahul Gandhi</label><br>
+       </div>
+       <div>
+        <input type="radio" name="press" id="o2" value="Draupadi Murmu"><label for="o2">Draupadi Murmu</label><br>
+       </div>
+       <div>
+        <input type="radio" name="press" id="o3" value="Narendra Modi"><label for="o3">Narendra Modi</label><br>
+       </div>
+       <div>
+        <input type="radio" name="press" id="o4" value="Ram Nath Govindh"><label for="o4">Ram Nath Govindh</label><br>
+       </div>
+       <button>submit</button>
+    </form>
+</body>
+</html>
