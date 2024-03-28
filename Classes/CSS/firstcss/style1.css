@@ -1,0 +1,18 @@
+body{
+    background-image: url('https://wallpaperaccess.com/full/3645264.jpg');
+    background-size: cover;
+}
+.container {
+    max-width: 900px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgba(216, 112, 147, 0.939);
+    height: 630px;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    color: white;
+}
