@@ -11,7 +11,10 @@ body {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.844);
     height: 400px;
-    margin-top: -3rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
